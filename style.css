@@ -291,7 +291,7 @@ body{
 
   .apresentacao__imagem,
   .felllipe__na__mooca__foto {
-    width: 80%;
+    width: 40%;
     height: auto;
     border-radius: 12px;
   }
@@ -325,4 +325,5 @@ body{
     font-size: 1rem;
     padding: 16px;
   }
+
 }
