@@ -113,18 +113,20 @@ body{
     color:var(--cor-terciaria)
 }
 .apresentacao__conteudo__texto{
-    font-size: 1.875rem;
+    font-size: 25px;
     font-family: var(--fonte-secundaria);
+    justify-items: center;
+    text-align: center
 }
 
 .apresentacao__conteudo__texto__sobremim{
-    font-size: -0.125rem;
+    font-size: 15px;
     font-family: var(--fonte-secundaria);
 }
 
 .felllipe__na__mooca__foto{
     height: 40%;
-    width: 30%;
+    width: 23%;
     border-radius: 20%;
     margin-top: auto;
 }
@@ -325,5 +327,4 @@ body{
     font-size: 1rem;
     padding: 16px;
   }
-
 }
