@@ -127,13 +127,8 @@ body{
 .felllipe__na__mooca__foto{
     height: 40%;
     width: 23%;
-    border-radius: 20%;
+    border-radius: 15%;
     margin-top: auto;
-}
-
-.apresentacao__conteudo__img{
-    width: 47%;   
-    border-radius: 12px; 
 }
 
 .apresentacao__links{
@@ -169,9 +164,8 @@ body{
 }
 
 .apresentacao__imagem{
+    width: 40%;
     border-radius: 10%;
-    width: 50%;
-    height: 2
 }
 
 /* mantém espaçamento entre itens */
@@ -293,15 +287,14 @@ body{
 
   .apresentacao__imagem {
     width: 40%;
-    height: auto !important; 
+    height: auto !important;   /* FORÇA a proporção no celular */
     object-fit: cover;
     border-radius: 12px;
   }
-  }
 
   .felllipe__na__mooca__foto {
-    width: 40%;       
-    height: auto !important;   
+    width: 40%;
+    height: auto !important;  /* FORÇA a proporção no celular */
     object-fit: cover;
     border-radius: 12px;
   }
@@ -335,5 +328,6 @@ body{
     font-size: 1rem;
     padding: 16px;
   }
+}
 
 
