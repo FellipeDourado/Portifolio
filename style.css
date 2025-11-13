@@ -291,10 +291,18 @@ body{
     text-align: justify;
   }
 
-  .apresentacao__imagem,
+  .apresentacao__imagem {
+    width: 60%;
+    height: auto !important; 
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  }
+
   .felllipe__na__mooca__foto {
-    width: 40%;
-    height: auto;
+    width: 60%;       
+    height: auto !important;   
+    object-fit: cover;
     border-radius: 12px;
   }
 
@@ -327,4 +335,3 @@ body{
     font-size: 1rem;
     padding: 16px;
   }
-}
