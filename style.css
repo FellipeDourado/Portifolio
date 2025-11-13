@@ -296,7 +296,7 @@ body{
     width: 45%;
     height: auto !important;  /* FORÇA a proporção no celular */
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 100px;
   }
 
 
@@ -329,6 +329,7 @@ body{
     padding: 16px;
   }
 }
+
 
 
 
